@@ -1,0 +1,321 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header{
+    padding-top: 20px;
+}
+
+.titulosh2{
+    width: 30%;
+    margin: auto;
+    border-bottom: 3px solid black;
+
+}
+/*H2 contactenos*/
+.titcontac{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+
+.contenh{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    margin-right: 22px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.navegacion a:hover {
+    color: #F78A08;
+}
+
+.secimg img{
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 110px;
+}
+
+.contmain {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.textmain{
+    text-align: center;
+    padding: 20px;
+}
+
+.artmain {
+    width: 25%;
+}
+
+.contimgmain{
+    width: 70px;
+    margin: auto;
+}
+
+.contimgmain img{
+    width: 100px;
+}
+
+.contblog{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.artblog{
+    width: 25%;
+    border: 1px solid black;
+    height: 550px;
+}
+
+.artblog img {
+    width: 100%;
+}
+
+.artblog span{
+    color: #F78A08;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.textblog {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textblog a{
+    text-decoration: none;
+    background: #F78A08;
+    text-align: center;
+    padding: 12px 112px;
+    font-size: 15px;
+    color: white;
+}
+
+.sectrecom {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contrecom {
+    width: 50%;
+    margin: auto;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.precom{
+    font-style: italic;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    padding-bottom: 10
+}
+
+.precom span{
+    color: #F78A08;
+}
+
+.pie {
+    border-top: solid 3px #F78A08;
+    padding: 20px;
+}
+
+.contpie {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contpie p{
+    font-weight: 300;
+    font-style: italic;
+}
+
+form{
+    display: flexbox;
+}
+
+.contcontacto{
+    width: 50%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    color: blue;
+}
+
+input{
+    color:green;
+}
+
+textarea{
+    color: green;
+}
+
+.boton-enviar {
+    background: #F78A08;
+    border: solid 1px #F78A08;
+    padding: 10px 50px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 21px;
+    color: white;
+}
+
+.boton-enviar:hover {
+    cursor: pointer;
+    background: white;
+    color: green;
+}
+
+
+/*footer*/
+#sp1 {
+    color: #F78A08;
+}
+
+#sp2{
+    color: aqua;
+}
+
+#sp3{
+    color: greenyellow;
+}
+
+/*Productos*/
+.secprod {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 100px;
+    font-size: 13px;
+    line-height: 1;
+    
+}
+
+.artmain span{
+    color: #F78A08;
+    font-size: 15px;
+}
+
+.textprod{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: max-content;
+}
+
+/*Productos*/
+.contimgm{
+    width: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+
+}
+
+.contimgm img{
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+
+/*Nosotros*/
+.articles{
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+}
+.articles img {
+    width: 180px;
+}
+
+.img {
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img img{
+    width: 300px;
+}
+
+.img span{
+    color: #F78A08;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*Entradas del blog*/
+.blog {
+    width: 60%; 
+    margin: auto; 
+    padding-bottom: 90px;
+    padding-top: 50px;
+}
+
+.blog img{
+    width: 100%;
+}
+
+.blog span {
+    color: #F78A08;
+    font-weight: bolder;
+}
+
+.blog p{
+    text-align: justify; 
+    font-weight: inherit;
+}
+
+.titblog {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.titblog span{
+    padding-right: 450px;
+}
+
+.blogtext {
+
+}
